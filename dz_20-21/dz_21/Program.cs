@@ -40,7 +40,7 @@ Console.WriteLine($"Введено чисел больше 0: {overnull(array)} 
 // значения b1, k1, b2 и k2 задаются пользователем.
 // b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
 
-/*
+
 Console.WriteLine("Введите координаты b1:");
 int b1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите координаты k1:");
@@ -55,5 +55,4 @@ int d = k1 - k2;
 int x =  c / d;
 
 int y = k2 *x + b1;
-Console.WriteLine($" первая точка пересечения {y}");
-*/
+Console.WriteLine($"Точка пересечения {y}");
