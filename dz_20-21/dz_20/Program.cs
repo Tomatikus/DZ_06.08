@@ -52,7 +52,8 @@ Console.Write($"Сумма всех нечетных элементов = {sum}"
 double[] arrayNumbers = new double[10];
   for (int i = 0; i < arrayNumbers.Length; i++ )
   {
-    arrayNumbers[i] = new Random().Next(1,20);
+    arrayNumbers[i] = new Random().NextDouble();
+    arrayNumbers [i] *= 100;
     Console.Write(arrayNumbers[i] +"," );
   }
 
