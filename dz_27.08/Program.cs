@@ -49,7 +49,7 @@ void WriteArray(double[,] array)
 // 8 4 2 4
 // 17 -> такого числа в массиве нет
 
-/*
+
 int m = 3;
 int n = 4;
 int[,] array = new int[m, n];
@@ -76,10 +76,9 @@ if (a > m && b > n)
     Console.WriteLine("Такого числа нет");
 else
 {
-    int result = array[0] - 1, array[1]-1;
+    int result = array[a,b];
     Console.WriteLine($"Значение элемента: {result}");
 }
-*/
 
 
 // Задача 52. Задайте двумерный массив из целых чисел. Найдите среднее 
